@@ -5,6 +5,7 @@ import { getFeaturedEvents, getEventById } from "../../helpers/api-util";
 import EventSummary from "../../components/eventDetail/EventSummary";
 import EventContent from "../../components/eventDetail/EventContent";
 import EventLogistics from "../../components/eventDetail/EventLogistics";
+import Comments from "../../components/input/Comments";
 
 function AllEventsPage({ event, ...props }) {
   if (!event) {
@@ -32,6 +33,7 @@ function AllEventsPage({ event, ...props }) {
       <EventContent>
         <p>{description}</p>
       </EventContent>
+      <Comments eventId={event.id}/>
     </Fragment>
   );
 }
