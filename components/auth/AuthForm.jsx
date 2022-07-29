@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import classes from './auth-form.module.css';
+import classes from './AuthForm.module.css';
 
 function AuthForm() {
   const [isLogin, setIsLogin] = useState(true);

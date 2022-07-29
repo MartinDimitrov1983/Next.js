@@ -1,5 +1,5 @@
-import ProfileForm from './profile-form';
-import classes from './user-profile.module.css';
+import ProfileForm from './ProfileForm';
+import classes from './UserProfile.module.css';
 
 function UserProfile() {
   // Redirect away if NOT auth

@@ -1,4 +1,4 @@
-import classes from './profile-form.module.css';
+import classes from './ProfileForm.module.css';
 
 function ProfileForm() {
   return (

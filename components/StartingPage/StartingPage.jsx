@@ -1,4 +1,4 @@
-import classes from './starting-page.module.css';
+import classes from './StartingPage.module.css';
 
 function StartingPageContent() {
   // Show Link to Login page if NOT auth

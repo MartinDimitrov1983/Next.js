@@ -1,4 +1,4 @@
-import StartingPageContent from '../components/starting-page/starting-page';
+import StartingPageContent from '../components/StartingPage/StartingPage';
 
 function HomePage() {
   return <StartingPageContent />;
